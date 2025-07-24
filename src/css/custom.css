@@ -5,26 +5,65 @@
  */
 
 /* You can override the default Infima variables here. */
+.footer {
+  background-color: #2c2c2d; /* ganti ke warna yang lo mau */
+}
+
+.footer__copyright {
+  opacity: 0.6;
+  font-size: 0.75rem;
+  padding-top: 1rem;
+  /* padding-bottom: 1rem; */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center; /* biar lebih simetris */
+}
+
+/* styles.module.css */
+.logo {
+  background-image: url('/img/icon-light.svg'); /* FIXED path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+}
+
+html[data-theme='dark'] .logo{
+  background-image: url('/img/icon-light.svg'); /* Ganti icon dark-nya di sini */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+}
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #d9850f; 
+  --ifm-color-primary-dark: #b66e0c;
+  --ifm-color-primary-darker: #995c0a;
+  --ifm-color-primary-darkest: #7a4a08;
+  --ifm-color-primary-light: #f4b661; 
+  --ifm-color-primary-lighter: #fbdca9;
+  --ifm-color-primary-lightest: #fff2db;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #fed287;
+  --ifm-color-primary-dark: #d7b172;
+  --ifm-color-primary-darker: #d7b172;
+  --ifm-color-primary-darkest: #b1925e;
+  --ifm-color-primary-light: #fed287;
+  --ifm-color-primary-lighter: #fed287;
+  --ifm-color-primary-lightest: #fed287;
+  --ifm-background-color: #141516;
+  --navbar-background: #2c2c2d;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* .menu__link {
+  text-transform: uppercase;
+} */

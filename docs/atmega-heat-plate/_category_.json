@@ -1,0 +1,8 @@
+{
+  "label": "ATmega328 Heat Plate",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "DIY Precise temperature control using OLED or 16x2 LCD. Built for compact soldering stations and lab tools with thermistor + Solid State Relay feedback."
+  }
+}
