@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
 title: Firmware Upload
-----
+---
 
+Firmware Upload
 
 ### Getting Started
 

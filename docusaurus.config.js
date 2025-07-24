@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: "Javier Docs",
   tagline: 'Do it as you can',
-  favicon: 'img/icon.ico',
+  favicon: 'img/icon.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
