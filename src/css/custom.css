@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 .footer {
-  background-color: #2c2c2d; /* ganti ke warna yang lo mau */
+  background-color: #2c2c2d; 
 }
 
 .footer__copyright {
@@ -16,7 +16,7 @@
   /* padding-bottom: 1rem; */
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  text-align: center; /* biar lebih simetris */
+  text-align: center; 
 }
 
 /* styles.module.css */
@@ -30,7 +30,7 @@
 }
 
 html[data-theme='dark'] .logo{
-  background-image: url('/img/icon-light.svg'); /* Ganti icon dark-nya di sini */
+  background-image: url('/img/icon-light.svg'); 
   background-size: contain;
   background-repeat: no-repeat;
   width: 1.2rem;
