@@ -10,10 +10,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-client-redirects',
+  //     {
+  //       redirects: [
+  //         {
+  //           from: '/',
+  //           to: '/docs/intro',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // ],
   title: "Javier Docs",
   tagline: 'Do it as you can',
   favicon: 'img/icon.jpg',
-
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -103,7 +115,10 @@ const config = {
             position: 'left',
             label: 'Documents',
           },
-          {to: 'https://shopee.co.id/javrayhan', label: 'Store', position: 'left'},
+          {
+          to: 'https://shopee.co.id/javrayhan', 
+          label: 'Store', 
+          position: 'left'},
           {
             href: 'https://github.com/javierrayhan',
             label: 'GitHub',
@@ -157,7 +172,7 @@ const config = {
               },
             ],
           },
-        ],
+        ], 
         copyright: `Copyright © ${new Date().getFullYear()} Javier Rayhan. Built with Docusaurus.`,
       },
       prism: {
@@ -166,5 +181,6 @@ const config = {
       },
     }),
 };
+
 
 export default config;

@@ -3,6 +3,8 @@ sidebar\_position: 4
 title: Troubleshooting
 ---
 
+Troubleshooting common issues with your Photo Frame.
+
 ## 1. Try Some Solutions
 
 ### Can't Connect to Wi-Fi

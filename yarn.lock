@@ -2219,6 +2219,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/plugin-client-redirects@npm:^3.8.1":
+  version: 3.8.1
+  resolution: "@docusaurus/plugin-client-redirects@npm:3.8.1"
+  dependencies:
+    "@docusaurus/core": "npm:3.8.1"
+    "@docusaurus/logger": "npm:3.8.1"
+    "@docusaurus/utils": "npm:3.8.1"
+    "@docusaurus/utils-common": "npm:3.8.1"
+    "@docusaurus/utils-validation": "npm:3.8.1"
+    eta: "npm:^2.2.0"
+    fs-extra: "npm:^11.1.1"
+    lodash: "npm:^4.17.21"
+    tslib: "npm:^2.6.0"
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  checksum: 10c0/c394b63f63720b2d573faa048df995ca26ef1d77d791fa116519a2dea0e6c36c6355969e9cf3f30324045a8fda51c3a74dd942b555a54d21436a2dfe7083119b
+  languageName: node
+  linkType: hard
+
 "@docusaurus/plugin-content-blog@npm:3.8.1":
   version: 3.8.1
   resolution: "@docusaurus/plugin-content-blog@npm:3.8.1"
@@ -8596,6 +8616,7 @@ __metadata:
   dependencies:
     "@docusaurus/core": "npm:3.8.1"
     "@docusaurus/module-type-aliases": "npm:3.8.1"
+    "@docusaurus/plugin-client-redirects": "npm:^3.8.1"
     "@docusaurus/preset-classic": "npm:3.8.1"
     "@docusaurus/types": "npm:3.8.1"
     "@mdx-js/react": "npm:^3.0.0"

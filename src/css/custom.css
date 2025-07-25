@@ -5,6 +5,12 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --ifm-font-family-base: "Public Sans", sans-serif;
+}
+
 .footer {
   background-color: #2c2c2d; 
 }
@@ -37,6 +43,10 @@ html[data-theme='dark'] .logo{
   height: 1.2rem;
   display: inline-block;
 }
+
+/* GitHUb logo */
+
+
 
 :root {
   --ifm-color-primary: #d9850f; 
