@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 3
+sidebar_position: 3
 title: Firmware Upload (PlatformIO)
 ---
 
@@ -38,11 +38,18 @@ Open the `platformio.ini` file and confirm the environment matches your ESP32 bo
 platform = espressif32
 board = esp32dev
 framework = arduino
+lib_deps = 
+	adafruit/Adafruit GFX Library@^1.11.11
+	adafruit/Adafruit ST7735 and ST7789 Library@^1.10.4
+	arduino-libraries/NTPClient@^3.2.1
+	yoprogramo/QRcodeDisplay @ ^2.1.0
+	ricmoo/QRCode@^0.0.1
+	fastled/FastLED@^3.9.7
+upload_port = COM[X] 
 monitor_speed = 115200
-upload_speed = 921600
-build_flags =
-  -D CORE_DEBUG_LEVEL=3
 ```
+> - On Windows, check the port via Device Manager under Ports (COM & LPT).
+> - On macOS/Linux, you can run ls /dev/tty.* or dmesg | grep tty to find the active port.
 
 To find your exact board name, run:
 
