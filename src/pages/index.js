@@ -43,7 +43,7 @@ export default function Home() {
   //     </main>
   //   </Layout>
   // );
-    const history = useHistory();
+  const history = useHistory();
 
   useEffect(() => {
     history.push('/docs/intro'); 
