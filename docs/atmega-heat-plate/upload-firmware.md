@@ -3,67 +3,85 @@ sidebar_position: 3
 title: Firmware Upload
 ---
 
-Firmware Upload
+# Firmware Upload
 
-### Getting Started
+## 1. Getting Started
 
 To flash the firmware to your ATmega328/168/8-based Heat Plate Controller, follow these steps. This guide assumes you're using the [Arduino IDE](https://www.arduino.cc/en/software).
 
 ---
 
-### Clone the Repository
+## 2. Clone the Repository
 
 Start by cloning the firmware from GitHub:
 
 ```bash
 git clone https://github.com/javierrayhan/Atmega328-168-8-Heat-plate.git
 ```
-Navigate to the cloned folder and open the firmware/ directory.
+
+Navigate to the cloned folder and open the `firmware/` directory.
 
 ---
 
-### Install Required Libraries
-All required libraries are located in the lib/ folder inside the project. Copy the folders from lib/ to your Arduino libraries directory:
+## 3. Install Required Libraries
+
+All required libraries are located in the `lib/` folder inside the project. Copy the folders from `lib/` to your Arduino libraries directory:
 
 ```bash
 Documents/Arduino/libraries/
 ```
-If the libraries folder doesn't exist, you can create it manually.
+
+If the `libraries/` folder doesn't exist, create it manually.
 
 ---
 
-### Open the Sketch
-Inside the firmware/ folder, open the main sketch file (e.g., heatplate.ino) using the Arduino IDE.
+## 4. Open the Sketch
+
+Inside the `firmware/` folder, open the main sketch file (e.g., `heatplate.ino`) using the Arduino IDE.
 
 ---
 
-### Configure the IDE
-Select the correct board
-Go to Tools > Board and choose one of the following, depending on your chip:
+## 5. Configure the IDE
 
-- **ATmega328P**
-- **ATmega168**
-- **ATmega8**
+### Select the Correct Board
 
-Set the correct clock frequency
-Most boards run at either:
+Go to **Tools > Board** and choose the appropriate board based on your microcontroller:
 
-- **8 MHz (internal oscillator)**
-- **16 MHz (external crystal)**
+* ATmega328P
+* ATmega168
+* ATmega8
 
-Select the correct COM port
-Connect your microcontroller via USB or USB-to-Serial adapter, and choose the appropriate COM port in the Tools > Port menu.
+### Set the Clock Frequency
+
+Most boards will run at either:
+
+* **8 MHz** (internal oscillator)
+* **16 MHz** (external crystal)
+
+Make sure to match your board's actual clock setting.
+
+### Select the Correct COM Port
+
+Connect your board via USB or a USB-to-Serial adapter, then go to **Tools > Port** and select the appropriate port.
 
 ---
 
-### Upload the Firmware
-Click the Upload button in the Arduino IDE. If everything is correctly configured, the sketch should compile and flash successfully.
+## 6. Upload the Firmware
 
-After uploading, the device should display the current temperature on the OLED/LCD, and the rotary encoder will allow you to adjust the target temperature.
+Click the **Upload** button in the Arduino IDE. If everything is correctly configured, the sketch will compile and upload to your microcontroller.
 
 ---
 
-### Resources
-[GitHub Repository](https://github.com/javierrayhan/Atmega328-168-8-Heat-plate)
+## 7. What Happens After Upload?
 
-[Arduino Library Installation Guide](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
+Once flashed, your device should:
+
+* Display the current temperature on the OLED/LCD
+* Allow you to adjust the target temperature using the rotary encoder
+
+---
+
+## Resources
+
+* [GitHub Repository](https://github.com/javierrayhan/Atmega328-168-8-Heat-plate)
+* [Arduino Library Installation Guide](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
