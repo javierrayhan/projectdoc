@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Firmware Upload (PlatformIO)
+title: Firmware Upload 
 ---
 
 ## Uploading Firmware to Kato Macro Keyboard

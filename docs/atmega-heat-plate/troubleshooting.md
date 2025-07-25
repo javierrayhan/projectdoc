@@ -2,6 +2,8 @@
 sidebar_position: 4
 title: Troubleshooting
 ---
+Troubleshooting common issues with Heat Plate.
+
 ## 1. Try some solution
 ### Upload failed on ATmega8
 Ensure the bootloader is burned and the correct fuse bits are set. For bare chips, you may need an external ISP programmer.

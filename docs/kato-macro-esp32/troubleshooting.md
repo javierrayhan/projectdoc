@@ -29,14 +29,14 @@ If you're using `bleKeyboard.h` and the device can't connect:
 
 * Could be caused by missing decoupling capacitors. Try placing 0.1µF near the ESP32’s VCC and GND.
 * Voltage regulator (like AMS1117 or ME6211) might be failing or overheating.
-* Check power source — unstable USB power can cause brownout resets.
+* Check power source unstable USB power can cause brownout resets.
 * Review your code for stack overflows or watchdog triggers.
 
 ### Cannot Upload Code
 
 * Make sure the correct COM port is selected in Arduino/PlatformIO.
 * Press and hold BOOT (GPIO0) during upload to manually enter flash mode.
-* Check USB cable — some are power-only.
+* Check USB cable some are power-only.
 * Close any serial monitors using the port.
 
 ### Other Common Problems
