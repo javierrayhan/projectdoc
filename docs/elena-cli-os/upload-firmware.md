@@ -20,7 +20,7 @@ git clone https://github.com/javierrayhan/elena_cli-os.git
 Navigate to the firmware directory:
 
 ```bash
-cd elena_cli-os/firmware/atmega32/
+cd elena_cli-os/source code
 ```
 
 This folder contains the source code (`.ino` or `.c/.cpp`), `Makefile`, and platform-specific files.

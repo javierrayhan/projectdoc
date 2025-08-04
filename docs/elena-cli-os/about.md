@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: About
 ---
-[ELENA INTRO](https://github.com/javierrayhan/elena_cli-os/blob/main/images/boot.png)
+![ELENA INTRO](https://github.com/javierrayhan/elena_cli-os/blob/main/images/boot.png)
 
 This isn’t just another AVR project, it's **Elena CLI-OS**, a minimalist, bare-metal command-line operating system handcrafted for microcontrollers with limited resources. Built on the ATmega32 with just 32KB of flash, Elena offers core features you wouldn’t expect at this scale, driven by curiosity, creativity, and a touch of nostalgia for simpler computing.
 
