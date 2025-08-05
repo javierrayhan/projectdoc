@@ -10,7 +10,7 @@ This guide escalates from basic hiccups to trickier stuff.
 
 ## 1. Start With the Basics
 
-### 🔌 Board Not Detected on Upload  
+### Board Not Detected on Upload  
 * Make sure your USB-to-Serial converter (e.g., CH340, FTDI) is properly connected.
 * Double-check TX/RX wiring, they must be crossed (TX → RX, RX → TX).
 * Use the correct COM port in Arduino IDE.
@@ -68,12 +68,12 @@ This guide escalates from basic hiccups to trickier stuff.
 
 ## 6. Stability & Power Problems
 
-### 🔄 Random Resets or Glitches
+### Random Resets or Glitches
 * Bad power supply? Try using a stable 5V adapter or LDO.
 * Add decoupling caps near power pins (100nF typical).
 * Check for brown-out reset issues (`fuses` might need adjusting).
 
-### 🔥 Chip Heating Up
+### Chip Heating Up
 * Double-check your wiring, especially VCC-GND short or incorrect polarity.
 * Some modules draw too much current, use heat sinks or proper regulators.
 
