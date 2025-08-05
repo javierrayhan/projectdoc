@@ -53,7 +53,7 @@ Go to **Tools** and set the following:
 * **Programmer**: USBasp (or your ISP of choice)
 * **Port**: Select the COM port for your ISP
 
-> 💡 If you're using USBasp and encounter upload errors, try placing a 10uF capacitor between RESET and GND on your Arduino ISP (optional workaround).
+> If you're using USBasp and encounter upload errors, try placing a 10uF capacitor between RESET and GND on your Arduino ISP (optional workaround).
 
 ---
 
@@ -70,7 +70,7 @@ Example wiring for USBasp:
 | VCC        | VCC (Pin 10)  |
 | GND        | GND (Pin 11)  |
 
-> 🧠 Double-check your connections and ensure the ATmega32 has proper power and a crystal oscillator (16MHz + 2x 22pF caps).
+> Double-check your connections and ensure the ATmega32 has proper power and a crystal oscillator (16MHz + 2x 22pF caps).
 
 ---
 

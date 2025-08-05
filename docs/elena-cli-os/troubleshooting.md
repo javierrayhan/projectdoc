@@ -82,6 +82,6 @@ This guide escalates from basic hiccups to trickier stuff.
 ## 7. Still Broken? 
 
 Open a GitHub issue, send over your schematic, and describe what’s going wrong:  
-📬 [Submit an Issue](https://github.com/javierrayhan/elena_cli-os/issues)
+[Submit an Issue](https://github.com/javierrayhan/elena_cli-os/issues)
 
-No worries — even pros get stuck sometimes. We're all in this silicon struggle together 💪🧠
+No worries — even pros get stuck sometimes. We're all in this silicon struggle together 
