@@ -27,7 +27,7 @@ This isn’t just another AVR project, it's **Elena CLI-OS**, a minimalist, bare
 
 1. **Flash to ATmega32** using a compatible programmer.
 2. **Connect via UART** (default: 19200 baud).
-3. **Start Interacting:** Type commands like `help`, `lsio`, `time`, or `scan` to explore features.
+3. **Start Interacting:** Type commands like `help`, `time`, or `i2c scan` to explore features.
 
 ---
 
