@@ -40,8 +40,7 @@ Displays the full list of usable commands in Elena OS.
 ---
 
 ### `login` Login with username
-
-#### If no account exists:
+> If no account exists:
 
 ```
 [i] No user found. Please register.
@@ -51,8 +50,7 @@ Create Password:
 [S] User registered successfully.
 ```
 
-#### If an account is available:
-
+> If an account is available:
 ```
 [?] Do you want to login? (y/n)
 y
@@ -66,15 +64,12 @@ Password: root
 ---
 
 ### `logout` Logout from current logged-in account
-
-#### If already logged out:
-
+> If already logged out:
 ```
 [!] You already logging out! Execute failed
 ```
 
-#### If still logged in:
-
+> If still logged in:
 ```
 [S] Logging out success!
 ```
@@ -102,7 +97,8 @@ Displays diagnostic and hardware-related information.
 ### `rns acc` remove & set new account
 
 Deletes the current account and registers a new one.
-### If you were not logged in:
+
+> If you were not logged in:
 ```
 [!] You must login to reset your account!
 [?] Do you want to login? (y/n)
@@ -117,7 +113,7 @@ Create Password: newroot
 [S] User registered successfully.
 ```
 
-### If you was loged in:
+> If you was loged in:
 ```
 Create Username: newroot
 Create Password: newroot
@@ -200,25 +196,25 @@ delay 1000 //Delayed for 1 second
 ### `gpio s/w/r` GPIO function
 
 Controls GPIO pins: set, write, or read their values.
-> Read all pins
+> Read all pins:
 ```
 gpio s
 ```
 
-> Set all pins
+> Set all pins:
 
 ```
 gpio w all h
 gpio w all l
 ```
 
-> Set single pin
+> Set single pin:
 ```
 gpio w pa0 h
 gpio w pa0 l
 ```
 
-> Read single pin
+> Read single pin:
 ```
 gpio r pa0
 ```
